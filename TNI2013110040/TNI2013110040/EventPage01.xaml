@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Event Page 01"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TNI2013110040.EventPage01">
+    <StackLayout BackgroundColor="Salmon"  Padding="20">
+
+        <Button
+            x:Name="openEV2"
+            Text="Open EV2"
+            BackgroundColor="SeaGreen"/>
+        <Button
+            x:Name="openTap"
+            Text="Open Tap"
+            BackgroundColor="Wheat"/>
+
+
+    </StackLayout>
+</ContentPage>
+

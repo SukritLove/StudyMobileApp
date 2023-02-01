@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{2B64837C-DA6C-490C-A4D7-20064D363CC9}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TNI2013110040.Android Xamarin.HotReload.DebuggerTimeoutException.TNI2013110040.Android.HideInfoBar="True" PreferredExecutionTarget="Android.pixel_5_-_api_29" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TNI2013110040/TNI2013110040/MenuPage.xaml.cs">
+    <Files>
+      <File FileName="TNI2013110040/TNI2013110040/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="TNI2013110040/TNI2013110040/MenuPage.xaml.cs" Line="17" Column="1" />
+      <File FileName="TNI2013110040/TNI2013110040/MainPage.xaml.cs" />
+      <File FileName="TNI2013110040/TNI2013110040/App.xaml.cs" />
+      <File FileName="TNI2013110040/TNI2013110040/NavPage01.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TNI2013110040" expanded="True">
+            <Node name="TNI2013110040" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="EventPage01.xaml" expanded="True" />
+              <Node name="EventPage02.xaml" expanded="True" />
+              <Node name="EventPage03.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MenuPage.xaml" expanded="True" />
+              <Node name="NavPage01.xaml" expanded="True" />
+              <Node name="NavPage03.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TNI2013110040" expanded="True">
+            <Node name="TNI2013110040" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="EventPage01.xaml" expanded="True" />
+              <Node name="EventPage02.xaml" expanded="True" />
+              <Node name="EventPage03.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MenuPage.xaml" expanded="True" />
+              <Node name="NavPage01.xaml" expanded="True" />
+              <Node name="NavPage03.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

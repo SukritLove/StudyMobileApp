@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Page : 01"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TNI2013110040.NavPage01">
+    <StackLayout BackgroundColor="Salmon">
+        <Button
+            x:Name="openPage2"
+            Text="Open NavPage2"
+            BackgroundColor="SteelBlue"
+            Margin="10"/>
+        <Button
+            x:Name="openPage3"
+            Text="Open NavPage3"
+            BackgroundColor="Cyan"
+             Margin="10"/>
+        <Button
+            x:Name="youTube"
+            Text="YouTube"
+            BackgroundColor="DarkRed"
+             Margin="30"
+            FontAttributes="Bold"
+            FontSize="Large"
+            TextColor="White"/>
+
+    </StackLayout>
+</ContentPage>
+

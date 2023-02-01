@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Blue"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TNI2013110040.TabPage02">
+   <StackLayout BackgroundColor="DeepSkyBlue">
+
+
+    </StackLayout>
+</ContentPage>
+

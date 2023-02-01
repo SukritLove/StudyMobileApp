@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TNI2013110040.StackPage">
+    <ScrollView>
+        <StackLayout BackgroundColor="LightCyan" Spacing="10" Padding="10">
+
+            <BoxView Color="PowderBlue" HorizontalOptions="Start" WidthRequest="100"/>
+            <BoxView Color="Cornsilk" HorizontalOptions="Center" WidthRequest="100"/>
+            <BoxView Color="LightPink" HorizontalOptions="End" WidthRequest="100"/>
+
+        <ScrollView Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal">
+
+                <BoxView Color="PowderBlue" HorizontalOptions="Start" WidthRequest="200"/>
+                <BoxView Color="Cornsilk" HorizontalOptions="Center" WidthRequest="200"/>
+                <BoxView Color="LightPink" HorizontalOptions="End" WidthRequest="200"/>
+
+            </StackLayout>
+        </ScrollView>
+
+            <!--<BoxView Color="PowderBlue"
+                     VerticalOptions="StartAndExpand"
+                     HorizontalOptions="Start"
+                     WidthRequest="100"/>
+            <BoxView Color="Cornsilk"
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Center"
+                     WidthRequest="100"/>
+            <BoxView Color="LightPink"
+                     VerticalOptions="EndAndExpand"
+                     HorizontalOptions="End"
+                     WidthRequest="100"/>-->
+
+            <BoxView Color="LightPink"
+                     VerticalOptions="FillAndExpand"
+                     WidthRequest="100"/>
+            <BoxView Color="LightPink"
+                     VerticalOptions="FillAndExpand"
+                     WidthRequest="100"/>
+            <BoxView Color="LightPink"
+                     VerticalOptions="FillAndExpand"
+                     WidthRequest="100"/>
+
+            <StackLayout>
+                <Button HorizontalOptions="StartAndExpand" Text="Start"/>
+                <Button HorizontalOptions="CenterAndExpand" Text="Center"/>
+                <Button HorizontalOptions="EndAndExpand" Text="End"/>
+                <Button HorizontalOptions="FillAndExpand" Text="Fill"/>
+            </StackLayout>
+
+
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
+

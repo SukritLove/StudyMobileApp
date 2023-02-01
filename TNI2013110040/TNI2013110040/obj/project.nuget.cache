@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "SuzUp+WBjMkMAaf3aY8Mt8mR7CS3+AW6eY9HAorP1w8h0UX3RFXeL1u9li+j+/P7S85+2v+uCTgQFFQUNYm7xw==",
+  "success": true,
+  "projectFilePath": "/Users/Sukrit/Desktop/APP/TNI2013110040/TNI2013110040/TNI2013110040/TNI2013110040.csproj",
+  "expectedPackageFiles": [
+    "/Users/Sukrit/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/Sukrit/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/Sukrit/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/Sukrit/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/Sukrit/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

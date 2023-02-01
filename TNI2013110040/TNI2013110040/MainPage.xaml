@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TNI2013110040.MainPage">
+ <!--12--><ScrollView>
+   <StackLayout BackgroundColor="Teal" Padding="20">
+       
+       <!--1--><Label
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+
+
+       <!--2--><Entry Placeholder="User" Keyboard="Default"/> <!--ได้บรรทัดเดียว-->
+
+       <!--3--><Button Text="Send" BackgroundColor="Gold"/>
+
+       <!--4--><SearchBar/>
+
+       <!--5--><ProgressBar ProgressColor="OrangeRed" Progress="0.5"/>
+
+       <!--6--><ActivityIndicator IsRunning="False"/>
+        
+         
+       <!--8--><Frame CornerRadius="50" BackgroundColor="PeachPuff" HasShadow="True" >
+       <!--13--><ScrollView Orientation="Horizontal" >
+           <StackLayout Orientation="Horizontal">
+       <!--7--><BoxView
+           Color="Purple"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/> <!--HorizontalOption = "Center"-->
+               <BoxView
+           Color="Gray"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/> <!--HorizontalOption = "Center"-->
+               <BoxView
+           Color="Blue"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/>
+               <BoxView
+           Color="Green"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/>
+               <BoxView
+           Color="Yellow"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/> <!--HorizontalOption = "Center"-->
+               <BoxView
+           Color="Orange"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/> <!--HorizontalOption = "Center"-->
+               <BoxView
+           Color="Red"
+           WidthRequest="50"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/>
+
+           </StackLayout>
+               </ScrollView>
+
+        </Frame>
+        
+         
+  
+       <!--9--><Editor HeightRequest="80"/> <!--ได้หลายบรรทัด-->
+
+       <!--10--><DatePicker/>
+
+       <!--11--><TimePicker/>
+      
+       <BoxView
+           Color="PaleGreen"
+           WidthRequest="30"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/>
+       <BoxView
+           Color="Plum"
+           WidthRequest="30"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/>
+       <BoxView
+           Color="Salmon"
+           WidthRequest="30"
+           HeightRequest="100"
+           HorizontalOptions="Fill"/>
+
+       <!--_______________-->
+
+       <Label
+           x:Name="textLabel"
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+
+       <!--14--><Slider
+           Minimum="0"
+           Maximum="100"
+           Value="25"
+           x:Name="slideLabel"
+           />
+
+       <Label
+           x:Name="textLabel1"
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+        <Entry
+            x:Name="entryLabel"
+            Placeholder="User"
+            Keyboard="Default"/>
+       <Label
+           x:Name="textLabel2"
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+       <Button
+           x:Name="sendButton"
+           Text="Send"
+           BackgroundColor="Gold"/>
+
+       <Label
+           x:Name="textLabel3"
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+       <!--15--><Stepper
+           x:Name="stepperTxt"
+           Minimum="0" Maximum="10"
+           Value="10" Increment="1"/>
+
+       <Label
+           x:Name="textLabel4"
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+       <!--16--><Switch
+           IsToggled="True"
+           x:Name="openSwitch"/>
+
+       <!--17--><Image Source="motorcycle.png" HorizontalOptions="Center"/>
+
+       <Label
+           x:Name="textLabel5"
+           Text="Hello Android"
+           TextColor="DarkTurquoise"
+           FontSize="Large"
+           HorizontalTextAlignment="Center"
+           BackgroundColor="Chocolate"
+           HeightRequest="50"/>
+       <!--18--><Picker Title="Color" x:Name="colorPick">
+                    <Picker.Items>
+                        <x:String>Green</x:String>
+                        <x:String>Red</x:String>
+                        <x:String>Black</x:String>
+                    </Picker.Items>
+                </Picker>
+
+
+   </StackLayout>
+  </ScrollView>
+</ContentPage>
+

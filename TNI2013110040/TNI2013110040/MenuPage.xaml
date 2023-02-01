@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Menu Page"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TNI2013110040.MenuPage">
+    <StackLayout BackgroundColor="Aquamarine" Padding="10">
+        <Button
+            Text="Home"/>
+        <Button
+            Text="Food"/>
+        <Button
+            Text="Beverage"/>
+
+
+    </StackLayout>
+</ContentPage>
+
